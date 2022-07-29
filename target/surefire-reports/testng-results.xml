@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-27T21:14:06 TRT" name="Allure Reports" finished-at="2022-07-27T21:15:36 TRT" duration-ms="89552">
+    <groups>
+    </groups>
+    <test started-at="2022-07-27T21:14:06 TRT" name="Login Page Tests" finished-at="2022-07-27T21:15:36 TRT" duration-ms="89552">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:14:06 TRT" name="setUpTest" finished-at="2022-07-27T21:14:07 TRT" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="loginAndDeleteAccountTest()[pri:0, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:14:07 TRT" name="loginAndDeleteAccountTest" description="Login User With Correct Email And Password" finished-at="2022-07-27T21:14:27 TRT" duration-ms="19846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndDeleteAccountTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:14:28 TRT" name="tearDownMethod" finished-at="2022-07-27T21:14:28 TRT" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAndDeleteAccountTest status=SUCCESS method=LoginTests.loginAndDeleteAccountTest()[pri:0, instance:tests.LoginTests@729c8def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="LoginUserWithIncorrectEmailAndPasswordTest()[pri:1, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:14:28 TRT" name="LoginUserWithIncorrectEmailAndPasswordTest" description="Login User With Incorrect Email And Password" finished-at="2022-07-27T21:15:08 TRT" duration-ms="40159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUserWithIncorrectEmailAndPasswordTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:15:08 TRT" name="tearDownMethod" finished-at="2022-07-27T21:15:08 TRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginUserWithIncorrectEmailAndPasswordTest status=SUCCESS method=LoginTests.LoginUserWithIncorrectEmailAndPasswordTest()[pri:1, instance:tests.LoginTests@729c8def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="LogoutUserTest()[pri:2, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:15:08 TRT" name="LogoutUserTest" description="User can logout" finished-at="2022-07-27T21:15:34 TRT" duration-ms="25769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUserTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:15:34 TRT" name="tearDownMethod" finished-at="2022-07-27T21:15:34 TRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogoutUserTest status=SUCCESS method=LoginTests.LogoutUserTest()[pri:2, instance:tests.LoginTests@729c8def] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.LoginTests@729c8def]" started-at="2022-07-27T21:15:34 TRT" name="tearDownTest" finished-at="2022-07-27T21:15:36 TRT" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Login Page Tests -->
+  </suite> <!-- Allure Reports -->
+</testng-results>
