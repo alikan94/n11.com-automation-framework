@@ -12,7 +12,7 @@ import utilities.TestBaseRapor;
 public class BaseTest extends TestBaseRapor {
 
     //C:\Program Files\apache-maven-3.8.6\bin
-
+    // bir takım eklemeker
     HomePage homePage = new HomePage();
     ProductsPage productsPage = new ProductsPage();
     SingleProductPage singleProductPage = new SingleProductPage();
